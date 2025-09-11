@@ -1,0 +1,82 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Packaging/build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Logs and test/coverage outputs
+*.log
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.pytest_cache/
+.tox/
+
+# Type checker and linter caches
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.pyre/
+
+# Jupyter and IPython
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+.jupyter/
+
+# IDE settings
+.idea/
+.vscode/
+*.iml
+
+# Environment and secrets
+.env
+.env.*
+.envrc
+.venv/
+venv/
+env/
+ENV/
+.conda/
+.mamba/
+conda-meta/
+
+# General caches and temp
+.cache/
+joblib/
+dask-worker-space/
+tmp/
+tmp*/
+temp/
+temp*/
+
+# Data science artifacts (uncomment or adjust as needed)
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+runs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Matplotlib cache
+.matplotlib/
+
+# TensorBoard
+.tensorboard/
