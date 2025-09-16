@@ -1,0 +1,19 @@
+Now df_full is a tabular dataset with:
+
+The original node_feat embeddings,
+
+Extra graph-theoretic features like degree, PageRank, clustering, betweenness, etc.,
+
+The label (subject category).
+
+🔹 Why this helps
+
+Without this, your baselines only use text-derived node features.
+
+With this, they also see structural properties of each paper in the citation network, which can boost baseline models above the 55% ceiling.
+
+It gives you a stronger and more fair comparison between traditional ML and GNNs.
+
+⚡ So the key is: you do have the citation info in graph['edge_index']. You just need to transform it into node-level features (using networkx or similar) before feeding it into your ML models.
+
+Would you like me to put together a complete Python pipeline that goes from `OGBN-Arxiv → NetworkX → engineered tabular dataset → XGBoost/LogReg baseline**? That might give you a ready-to-run notebook you can build on.
