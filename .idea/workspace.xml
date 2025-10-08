@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="rebase completed" />
+    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="rebase completed">
+      <change afterPath="$PROJECT_DIR$/notebooks/ogb/04_nlp_transformer.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/ogb/todo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/ml_learning_plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/documents/ml_learning_plan.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/todo" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -52,25 +61,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "database.data.extractors.current.export.id": "Comma-separated (CSV)_id",
-    "git-widget-placeholder": "Rebasing main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/jhowert/Desktop/AIMA/code/KaggleTitanicSpaceship",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/OneDrive/Desktop/AI/ClassificationBenchmarks&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\josep\OneDrive\Desktop\ClassificationBenchmarks\notebooks\ogb" />
@@ -85,8 +94,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-PY-243.26053.29" />
-        <option value="bundled-python-sdk-b1dbf8ef85a6-4df51de95216-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.26053.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +117,15 @@
       <workItem from="1757719217775" duration="206000" />
       <workItem from="1757967650774" duration="14893000" />
       <workItem from="1758246502061" duration="10177000" />
+      <workItem from="1758300208958" duration="6253000" />
+      <workItem from="1758318919012" duration="5858000" />
+      <workItem from="1758425108908" duration="1290000" />
+      <workItem from="1758492069113" duration="220000" />
+      <workItem from="1758851819203" duration="2325000" />
+      <workItem from="1758907938929" duration="11000" />
+      <workItem from="1759783998032" duration="1481000" />
+      <workItem from="1759890153524" duration="1151000" />
+      <workItem from="1759939721530" duration="12814000" />
     </task>
     <task id="LOCAL-00001" summary="rebase completed">
       <option name="closed" value="true" />

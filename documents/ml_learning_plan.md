@@ -25,7 +25,7 @@
 - **matplotlib/plotly**: Data visualization libraries
 
 ### Optional (Advanced)
-- **Hugging Face Transformers**: Pre-trained language models (Week 3-4)
+- **Hugging Face Transformers**: Pre-trained language models (Week 3–4)
 - **OGB + PyTorch Geometric**: Specialized graph neural network tools
 
 ### Setup Checklist
@@ -80,7 +80,7 @@
 
 Task 1: Exploratory Data Analysis (EDA) - Create these 3 visualizations:
 - [X] Target Distribution Bar Chart
-- [ ] Feature Visualization (2D)
+- [X] Feature Visualization (2D)
 
 **Deliverable:** 3-4 saved plots with 3-5 key insights written down
 
@@ -101,12 +101,12 @@ Test different settings to find the best baseline:
 
 **Deliverable:** Optimized baseline model with best hyperparameters
 
-- [ ] Task 2: First Neural Network (Simple MLP)
+- [X] Task 2: First Neural Network (Simple MLP)
 
-**MLP Definition:** Multi-Layer Perceptron - a neural network with input layer, hidden layers, and output layer.
+**MLP Definition:** Multi-Layer Perceptron — a neural network with input layer, hidden layers, and output layer.
 
 **Key Terms:**
-- **Hidden dimension**: Number of neurons in hidden layer (64 is small, 256+ is larger)
+- **Hidden dimension**: Number of neurons in a hidden layer (64 is small, 256+ is larger)
 - **ReLU**: Activation function that helps networks learn complex patterns
 - **Dropout**: Randomly sets some neurons to zero during training to prevent overfitting
 - **Adam optimizer**: Smart way to update model weights during training
@@ -115,7 +115,7 @@ Test different settings to find the best baseline:
 
 - [ ] Task 1: Training Loop with Monitoring
 - [ ] Task 2: Experiment with Training "Knobs"
-Test these one at a time and compare results:
+Test these ones at a time and compare results:
 
 **Learning Rate Schedulers:**
 **Different Optimizers:**
@@ -129,7 +129,6 @@ Test these one at a time and compare results:
 - [ ] At least one training improvement tested and documented
 - [ ] Learning curves plotted (loss going down over time)
 - [ ] Final train vs validation comparison completed
-- [ ] Optional: One final test on held-out test set
 
 ---
 
