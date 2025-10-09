@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="rebase completed">
-      <change afterPath="$PROJECT_DIR$/notebooks/ogb/04_nlp_transformer.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/ogb/todo.md" afterDir="false" />
+    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="finished eda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/ml_learning_plan.md" beforeDir="false" afterPath="$PROJECT_DIR$/documents/ml_learning_plan.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/todo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/todo.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <workItem from="1758907938929" duration="11000" />
       <workItem from="1759783998032" duration="1481000" />
       <workItem from="1759890153524" duration="1151000" />
-      <workItem from="1759939721530" duration="12814000" />
+      <workItem from="1759939721530" duration="23113000" />
     </task>
     <task id="LOCAL-00001" summary="rebase completed">
       <option name="closed" value="true" />
@@ -135,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758289914078</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished eda">
+      <option name="closed" value="true" />
+      <created>1759960560503</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1759960560503</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +147,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rebase completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="rebase completed" />
+    <MESSAGE value="finished eda" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished eda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

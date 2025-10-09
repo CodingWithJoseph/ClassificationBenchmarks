@@ -12,19 +12,18 @@
 
 ## 🔍 Exploratory Data Analysis (EDA)
 - [x] Plot target distribution across 40 classes  
-- [x] Add short takeaway on class imbalance
+- [x] Add a short takeaway on class imbalance
 - [x] Visualize 128-d node features (PCA/UMAP)  
-- [x] Add color by label and 1-2 sentences interpreting clusters
+- [x] Add color by label and 1–2 sentences interpreting clusters
 - [x] Create graph-structure plots (degree histogram, connectedness)
 - [x] Write 3–5 bullet insights summarizing what the EDA shows
 
 ---
 
 ## 🧱 Baseline Model (Classical ML)
-- [ ] Implement **Multinomial Logistic Regression** on 128-d features  
-- [ ] Perform a small hyperparameter scan (`C`, `max_iter`)
-- [ ] Report **Accuracy + Macro-F1** (train/val/test)
-- [ ] Plot **Confusion Matrix**
+- [X] Implement **Multinomial Logistic Regression** on 128-d features  
+- [X] Perform a small hyperparameter scan (`C`, `max_iter`)
+- [X] Report **Accuracy + Macro-F1** (train/val/test)
 - [ ] Add **Learning Curve** (accuracy/F1 vs. training size or epoch)
 - [ ] Summarize **generalization gap** (train vs validation)
 
@@ -39,7 +38,7 @@
 
 ## 🧩 Analysis & Reflection
 - [ ] Write **3–5 short error notes** (common failure patterns, rare classes, etc.)
-- [x] Conduct a single **test-set probe** after freezing final model
+- [x] Conduct a single **test-set probe** after freezing the final model
 - [ ] Combine final metrics into a small summary table
 
 ---
