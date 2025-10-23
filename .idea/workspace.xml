@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="updates">
-      <change afterPath="$PROJECT_DIR$/notebooks/06_word2vec.ipynb" afterDir="false" />
+    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="starting word2vec and modern embeddings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/05_tfidf_experiments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05_tfidf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/06_word2vec_experiments.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/08_bert_and_finetuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08_deberta.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/09_deberta_comparison.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/10_final_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06_word2vec.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06_word2vec.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +134,7 @@
       <workItem from="1760895984630" duration="3561000" />
       <workItem from="1760913483505" duration="6000" />
       <workItem from="1761183248006" duration="23033000" />
-      <workItem from="1761236491422" duration="4792000" />
+      <workItem from="1761236491422" duration="5791000" />
     </task>
     <task id="LOCAL-00001" summary="rebase completed">
       <option name="closed" value="true" />
@@ -197,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761203065554</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="starting word2vec and modern embeddings">
+      <option name="closed" value="true" />
+      <created>1761242201529</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1761242201529</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +222,8 @@
     <MESSAGE value="finished eda" />
     <MESSAGE value="working on completing w1-w4" />
     <MESSAGE value="updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+    <MESSAGE value="starting word2vec and modern embeddings" />
+    <option name="LAST_COMMIT_MESSAGE" value="starting word2vec and modern embeddings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
