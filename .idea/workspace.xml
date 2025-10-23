@@ -4,31 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="working on completing w1-w4">
-      <change afterPath="$PROJECT_DIR$/documents/Plan_NLP.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documents/w5_w12_todo.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/01_data_mapping.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/02_tfidf_experiments.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/03_word2vec_experiments.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/04_modern_embeddings.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/05_transformer_from_scratch.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/06_bert_and_finetuning.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/07_deberta_comparison.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/08_final_analysis.ipynb" afterDir="false" />
+    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="updates">
+      <change afterPath="$PROJECT_DIR$/documents/Plan_NLP-4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tcga_pathology/raw/tcga_pathology_reports.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tcga_pathology/raw/tcga_patient_to_cancer_type.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/gnn_methods_applications.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/ml_learning_plan.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/ogb_dataset_for_machine_learning_on_graphs.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/04_nlp_transformer.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/ogb/todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/documents/w1_w4_todo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/tcga_pathology/01_eda_overview.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/tcga_pathology/02_feature_engineering.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/tcga_pathology/03_baseline_benchmarks.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/documents/Plan_NLP.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/01_data_mapping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04_data_mapping.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/02_tfidf_experiments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05_tfidf_experiments.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/03_word2vec_experiments.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/06_word2vec_experiments.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/04_modern_embeddings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07_modern_embeddings.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/05_transformer_from_scratch.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/08_bert_and_finetuning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/06_bert_and_finetuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/09_deberta_comparison.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/07_deberta_comparison.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/10_final_analysis.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08_final_analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_eda_overview.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/02_feature_engineering.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/02_feature_engineering.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/ogb/03_baseline_benchmarks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03_baseline_benchmarks.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -80,13 +71,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.pr.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Projects/ClassificationBenchmarks/models&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/josep/Projects/ClassificationBenchmarks&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -104,11 +96,11 @@
       <recent name="C:\Users\josep\OneDrive\Desktop\ClassificationBenchmarks\data\tcga_pathology\raw" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\documents" />
+      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\data" />
+      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\notebooks" />
       <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\data\raw" />
       <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\open_alex" />
-      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\data" />
-      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\documents" />
-      <recent name="C:\Users\josep\Projects\ClassificationBenchmarks\notebooks" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -151,6 +143,9 @@
       <workItem from="1760677059514" duration="12838000" />
       <workItem from="1760712522238" duration="16720000" />
       <workItem from="1760805050398" duration="200000" />
+      <workItem from="1760895984630" duration="3561000" />
+      <workItem from="1760913483505" duration="6000" />
+      <workItem from="1761183248006" duration="17310000" />
     </task>
     <task id="LOCAL-00001" summary="rebase completed">
       <option name="closed" value="true" />
@@ -184,27 +179,50 @@
       <option name="project" value="LOCAL" />
       <updated>1759984827926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updates">
+      <option name="closed" value="true" />
+      <created>1760896010372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1760896010372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rebase completed" />
     <MESSAGE value="finished eda" />
     <MESSAGE value="working on completing w1-w4" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on completing w1-w4" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>file://$PROJECT_DIR$/notebooks/ogb/01_eda_overview.ipynb</url>
+          <url>file://$PROJECT_DIR$/notebooks/01_eda_overview.ipynb</url>
           <line>5</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ClassificationBenchmarks$pr.coverage" NAME="pr Coverage Results" MODIFIED="1760898782097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
