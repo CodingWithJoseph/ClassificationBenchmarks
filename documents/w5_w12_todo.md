@@ -40,51 +40,51 @@
 **Focus:** Explore different text encoding methods with linear probes and compare performance.
 
 ### TF-IDF Experiments:
-- [ ] **Implement baseline TF-IDF encoding**
+- [x] **Implement baseline TF-IDF encoding**
   - Use `sklearn.feature_extraction.text.TfidfVectorizer`
   - Set parameters: `max_features=10000`, `stop_words='english'`
   - Train logistic regression classifier, record accuracy & F1-macro
 
-- [ ] **Test TF-IDF with n-grams**
+- [x] **Test TF-IDF with n-grams**
   - Experiment with `ngram_range=(1,2)`, `(1,3)`, and `(1,5)`
   - Compare performance and feature dimensionality
   - Analyze which n-gram setting works best and why
 
-- [ ] **Apply traditional NLP preprocessing**
+- [x] **Apply traditional NLP preprocessing**
   - Test with/without: stopword removal, lemmatization, stemming
   - Use `nltk` or `spacy` for text preprocessing
   - Document which preprocessing steps improve performance
 
-- [ ] **Analyze TF-IDF results**
+- [x] **Analyze TF-IDF results**
   - Record all combinations in results table
   - Explain performance differences (vocabulary size, sparsity, etc.)
 
 ### Word2Vec Experiments:
-- [ ] **Use pretrained Word2Vec model**
+- [x] **Use pretrained Word2Vec model**
   - Load `word2vec-google-news-300` from `gensim`
   - Average word vectors for each document (handle OOV words)
   - Train logistic regression on 300-d embeddings
 
-- [ ] **Record Word2Vec performance**
+- [x] **Record Word2Vec performance**
   - Compare against TF-IDF results
   - Analyze semantic vs. syntactic representation differences
 
-- [ ] **[Optional] Train custom Word2Vec**
+- [x] **[Optional] Train custom Word2Vec**
   - Train Word2Vec on ArXiv training set abstracts
   - Use `gensim.models.Word2Vec` with `vector_size=300`, `window=5`
   - Compare custom vs. pretrained model performance
 
 ### Modern Embedding Methods:
-- [ ] **Implement sentence-level embeddings**
+- [x] **Implement sentence-level embeddings**
   - Use models like `sentence-transformers/all-MiniLM-L6-v2`
   - Or API-based: OpenAI embeddings, Google embeddings
   - Generate document-level embeddings
 
-- [ ] **Test modern embedding performance**
+- [x] **Test modern embedding performance**
   - Apply same logistic regression evaluation
   - Record performance in comparison table
 
-- [ ] **Create comprehensive comparison**
+- [x] **Create comprehensive comparison**
   - Build results table with all encoding methods
   - Include: accuracy, F1-macro, embedding dimension, training time
   - Analyze which methods work best for scientific text classification
@@ -93,22 +93,6 @@
 
 ## 🤖 Weeks 8-12: Modern Transformer Methods
 **Focus:** Implement modern transformer architectures from scratch to fine-tuned models.
-
-### Encoder-Only Transformer From Scratch:
-- [ ] **Design small transformer architecture**
-  - Define model: 2-4 layers, 4-8 heads, 256-512 hidden dimension
-  - Use `torch.nn.TransformerEncoder` or implement custom blocks
-  - Add classification head for 40 classes
-
-- [ ] **Configure training pipeline**
-  - Set up tokenizer (e.g., `AutoTokenizer.from_pretrained('bert-base-uncased')`)
-  - Define optimizer: Adam with lr=1e-4, weight decay
-  - Use learning rate scheduler and early stopping
-
-- [ ] **Train and evaluate custom transformer**
-  - Train for 10-20 epochs with validation monitoring
-  - Record: validation accuracy, F1-macro, training curves
-  - Document overfitting patterns and training stability
 
 ### BERT-based Experiments:
 - [ ] **Implement frozen BERT classifier**
@@ -126,17 +110,6 @@
   - Set `r=16`, `lora_alpha=32`, target attention layers
   - Compare LoRA vs. full fine-tuning stability
 
-### Advanced Transformer Models:
-- [ ] **Evaluate DeBERTa model**
-  - Use `microsoft/deberta-base` for comparison
-  - Apply same frozen/fine-tuned experimental setup
-  - Note disentangled attention and relative position benefits
-
-- [ ] **Compare transformer architectures**
-  - Create results table: Custom, BERT-frozen, BERT-finetuned, DeBERTa
-  - Include: accuracy, F1-macro, training time, inference speed
-  - Document attention pattern analysis (optional)
-
 ### Final Analysis & Documentation:
 - [ ] **Compile comprehensive results table**
   - Include all methods from TF-IDF to transformer models
@@ -152,40 +125,3 @@
   - Ensure all experiments can be reproduced with fixed seeds
   - Document hardware requirements and training times
   - Include hyperparameter configurations and model checkpoints
-
----
-
-## 📊 Expected Deliverables by Week 12:
-
-### Data Assets:
-- [ ] `arxiv_text.parquet` - Clean, mapped text dataset
-- [ ] Label validation report with sanity check examples
-
-### Model Results:
-- [ ] TF-IDF experiments (3+ configurations)
-- [ ] Word2Vec results (pretrained + optional custom)
-- [ ] Modern embedding baselines
-- [ ] Custom transformer implementation
-- [ ] BERT-family model comparisons
-
-### Documentation:
-- [ ] Comprehensive performance comparison table
-- [ ] Semester-long methodology report
-- [ ] Code repository with reproducible experiments
-- [ ] Insights on text encoding effectiveness for scientific documents
-
----
-
-### ✅ Status Summary
-- **0 / 35 Complete**  
-- **All items pending - ready to start Week 5**
-
----
-
-## 🎯 Next Focus (Week 5):
-1. Set up data mapping pipeline from `node_index` → `paper_id` → `text`
-2. Implement paper ID canonicalization (version stripping, normalization)
-3. Create unified `arxiv_text.parquet` dataset
-4. Perform label sanity checking with manual validation of 10-20 samples
-
----
