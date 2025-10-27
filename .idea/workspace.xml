@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="finish weeks 1-8, next steps write documentation for modern embeddings, and write bert model">
-      <change afterPath="$PROJECT_DIR$/notebooks/08_bert_lora.ipynb" afterDir="false" />
+    <list default="true" id="05dbd637-4f7d-4ee0-9246-be2dbd993f8f" name="Changes" comment="weeks 1-8 finish all documented and results generated">
+      <change afterPath="$PROJECT_DIR$/notebooks/08_transformers.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documents/w5_w12_todo.md" beforeDir="false" afterPath="$PROJECT_DIR$/documents/w5_w12_todo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/01_eda_overview.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/01_eda_overview.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/03_baseline_benchmarks.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/03_baseline_benchmarks.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/04_data_mapping.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/04_data_mapping.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/05_tfidf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/05_tfidf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/07_modern_embeddings.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/07_modern_embeddings.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/08_bert_lora.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +138,8 @@
       <workItem from="1761236491422" duration="36272000" />
       <workItem from="1761347172992" duration="5085000" />
       <workItem from="1761352401498" duration="9000" />
+      <workItem from="1761355496401" duration="33000" />
+      <workItem from="1761591207796" duration="14018000" />
     </task>
     <task id="LOCAL-00001" summary="rebase completed">
       <option name="closed" value="true" />
@@ -240,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761335578990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="weeks 1-8 finish all documented and results generated">
+      <option name="closed" value="true" />
+      <created>1761355518220</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1761355518220</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +271,8 @@
     <MESSAGE value="updated word2vec notebook" />
     <MESSAGE value="Revert &quot;Kaggle Notebook | Word2Vec | Version 1&quot;&#10;&#10;This reverts commit 992181d0672d559f1eaadca39f594c22ab53fc68." />
     <MESSAGE value="finish weeks 1-8, next steps write documentation for modern embeddings, and write bert model" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish weeks 1-8, next steps write documentation for modern embeddings, and write bert model" />
+    <MESSAGE value="weeks 1-8 finish all documented and results generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="weeks 1-8 finish all documented and results generated" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
